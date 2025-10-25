@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#2AE0EA;
+}
+.game{
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    gap:4rem;
+    margin-top: 5rem;
+    
+    height: auto;
+    
+   
+}
+.choice:hover{
+    
+    cursor:pointer;
+    border-radius: 50%;
+    opacity: 0.5;
+    
+}
+.choice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1{
+    text-align: center;
+    background-color:#F00314;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height:55px;
+    justify-content: center;
+    line-height: 55px;
+    
+}
+img{
+    height: 150px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 4rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+p{
+    height: 50px;
+
+}
+
+.my-score {
+
+    font-size: 45px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.75rem;
+   margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+.comp-score{
+    font-size: 45px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 3.5rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+#msg{
+    font-size: 1.5rem;
+  width:300px;
+  height: 40px;
+    margin-top: 3rem;
+    background-color: black;
+    color: white;
+   line-height: 40px;
+  margin: auto;
+   padding-left: 45px;
+   margin-top: 5rem;
+   
+}
+.border{
+    border:5px #2C2E39 solid;
+    height: 500px;
+    width:800px;
+    margin-left: 350px;
+    margin-top: 1rem;
+    
+    
+}
