@@ -9,33 +9,46 @@
 <body>
     <h1>Rock Paper Scissor Game</h1>
     <div class="border">
+
     <div class="game">
         <div class="choice" id="rock">
-            <img src="rock.png">
+            <img src="rock.png" alt="Rock">
         </div>
         <div class="choice"  id="paper" >
-          <img src="paper.png">  
+          <img src="paper.png" alt="Paper">  
         </div>
         <div class="choice"  id="scissor">
-            <img src="scissors.png">
+            <img src="scissors.png" alt="Scissors">
         </div>
     </div>
+
+    <div class="game-area">
+        <div class="hand-display">
+            <p>YOU</p>
+            <img id="player-hand-img" src="rock.png" alt="Player Hand">
+        </div>
+        <div class="hand-display">
+            <p>COMPUTER</p>
+            <img id="computer-hand-img" src="rock.png" alt="Computer Hand">
+        </div>
+    </div>
+
+
     <div class="score-board">
-    <div class="score" >
-        <p class="my-score">0</p>
-        <p >YOU</p>
-    </div>
-    <div class="score" >
-        <p class="comp-score">0</p>
-        <p >COMPUTER</p>
+        <div class="score" >
+            <p class="my-score">0</p>
+            <p >YOU</p>
+        </div>
+        <div class="score" >
+            <p class="comp-score">0</p>
+            <p >COMPUTER</p>
+        </div>
     </div>
 
+    <div id="msg">PLAY YOUR MOVE</div>
+
     </div>
-         <div id="msg">PLAY YOUR MOVE</div>
-         </div>
       
-
-
   <script src="logic.js"></script>
 </body>
 </html>
